@@ -30,7 +30,6 @@
 .social-links > li > a,
 .btn-menu span, .btn-menu span::before, .btn-menu span::after,
 .timeline .date::before,
-.lightbox .lightbox-controls .btn-next:hover, .lightbox .lightbox-controls .btn-prev:hover,
 .btn-style01 a::after, .btn-style01 button::after {
   background-color: #eb1839;
 }

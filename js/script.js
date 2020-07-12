@@ -136,4 +136,8 @@ $(document).ready(function(){
             },4000);
         });
     });
+    setTimeout(function(){
+        $('body').removeClass('loader');
+        $('.profile').addClass('show');
+    },1000);
 });

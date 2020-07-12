@@ -1,0 +1,57 @@
+@import './mixin.scss';
+
+.menu-left{
+    .logo{
+        a{
+            &::before{
+                border-top:4px solid $red;
+                border-left:4px solid $red;
+            }
+            &::after{
+                border-bottom:4px solid $red;
+                border-right:4px solid $red;
+            }
+        }
+    }
+}
+.social-links{
+    >li{
+        >a{
+            border: 4px solid $red;
+        }
+    }
+}
+.btn-style01{
+    a,button{
+        &::before, &::after{
+            border:5px solid $red;
+        }
+    }
+}
+.social-links>li>a:hover,
+.menu-left .nav li a:hover,.menu-left .nav li a.act,
+.sec-about .info dt>span,
+.list-info >li a:hover,
+.lightbox .lightbox-controls .btn-next,.lightbox .lightbox-controls .btn-prev,
+.info-contact>li h3 i,
+.btn-style01 a::before, .btn-style01 button::before,
+.sec-change-color>div>span
+{
+    color: $red!important;
+}
+
+.title span::before, .title span::after,
+.social-links>li>a,
+.btn-menu span, .btn-menu span::before, .btn-menu span::after,
+.timeline .date::before,
+.lightbox .lightbox-controls .btn-next:hover,.lightbox .lightbox-controls .btn-prev:hover,
+.btn-style01 a::after, .btn-style01 button::after
+{
+    background-color: $red;
+}
+.timeline{
+    border-left: 2px solid $red;
+}
+.project-filter button.active{
+    border-bottom-color:$red;
+}

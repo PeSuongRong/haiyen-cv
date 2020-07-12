@@ -1,0 +1,44 @@
+.menu-left .logo a::before {
+  border-top: 4px solid #eb1839;
+  border-left: 4px solid #eb1839;
+}
+.menu-left .logo a::after {
+  border-bottom: 4px solid #eb1839;
+  border-right: 4px solid #eb1839;
+}
+
+.social-links > li > a {
+  border: 4px solid #eb1839;
+}
+
+.btn-style01 a::before, .btn-style01 a::after, .btn-style01 button::before, .btn-style01 button::after {
+  border: 5px solid #eb1839;
+}
+
+.social-links > li > a:hover,
+.menu-left .nav li a:hover, .menu-left .nav li a.act,
+.sec-about .info dt > span,
+.list-info > li a:hover,
+.lightbox .lightbox-controls .btn-next, .lightbox .lightbox-controls .btn-prev,
+.info-contact > li h3 i,
+.btn-style01 a::before, .btn-style01 button::before,
+.sec-change-color > div > span {
+  color: #eb1839 !important;
+}
+
+.title span::before, .title span::after,
+.social-links > li > a,
+.btn-menu span, .btn-menu span::before, .btn-menu span::after,
+.timeline .date::before,
+.lightbox .lightbox-controls .btn-next:hover, .lightbox .lightbox-controls .btn-prev:hover,
+.btn-style01 a::after, .btn-style01 button::after {
+  background-color: #eb1839;
+}
+
+.timeline {
+  border-left: 2px solid #eb1839;
+}
+
+.project-filter button.active {
+  border-bottom-color: #eb1839;
+}

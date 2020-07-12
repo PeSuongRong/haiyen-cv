@@ -1,0 +1,71 @@
+// color web
+$purple:#312e4d;
+$red: #eb1839;
+$blue:#2196f3;
+$orange:#fb5b0f;
+$light-purple:#7952b3;
+$green:#ffb400;
+$white:#ffffff;
+$gray:#e9e9e9;
+$p:#504e70;
+$bd:#e8dfec;
+
+//bg dark
+$bg-dark1:#151515;
+$bg-light1:#222222;
+//bg light
+$bg-dark2:#f2f2fc;
+$bg-light2:#fef9ff;
+
+
+//mixin
+@mixin transform($a) {
+    transform:$a;
+    -webkit-transform:$a;
+    -moz-transform: $a;
+    -ms-transform:$a;
+    -o-transform: $a;
+}
+@mixin transition($a) {
+    transition:$a;
+    -webkit-transition:$a;
+    -moz-transition: $a;
+    -ms-transition:$a;
+    -o-transition: $a;
+}
+@mixin animation($animation) {
+	-webkit-animation: $animation;
+	animation: $animation;
+}
+@mixin animation-delay($a){
+    animation-delay: $a;
+    -webkit-animation-delay: $a;
+    -o-animation-delay: $a;
+    -moz-animation-delay: $a;
+}
+@mixin box-shadow($a) {
+    -webkit-box-shadow: $a;
+    -moz-box-shadow: $a;
+     box-shadow: $a;
+}
+@mixin calc($type,$calc1,$calc2) {
+	#{$type}: -moz-calc(#{$calc1}  - #{$calc2});
+	#{$type}: -webkit-calc(#{$calc1} - #{$calc2});
+	#{$type}: -o-calc(#{$calc1} - #{$calc2});
+	#{$type}: calc(#{$calc1} - #{$calc2});
+	#{$type}: -ms-(#{$calc1} - #{$calc2});
+}
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+      @content; 
+    }
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+    @-ms-keyframes #{$name} {
+      @content;
+    }
+    @keyframes #{$name} {
+      @content;
+    } 
+};

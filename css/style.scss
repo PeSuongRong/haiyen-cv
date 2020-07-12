@@ -284,7 +284,7 @@
                 @include transform(perspective(500px) rotateX(0) translateY(0));
             }
         }
-        &:focus{
+        &:active{
             &::after{
                 @include transform(perspective(500px) rotateX(0) translateY(3px));
             }

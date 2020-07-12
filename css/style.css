@@ -335,7 +335,7 @@
   -ms-transform: perspective(500px) rotateX(0) translateY(0);
   -o-transform: perspective(500px) rotateX(0) translateY(0);
 }
-.btn-style01 a:focus::after, .btn-style01 button:focus::after {
+.btn-style01 a:active::after, .btn-style01 button:active::after {
   transform: perspective(500px) rotateX(0) translateY(3px);
   -webkit-transform: perspective(500px) rotateX(0) translateY(3px);
   -moz-transform: perspective(500px) rotateX(0) translateY(3px);

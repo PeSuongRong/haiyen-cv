@@ -139,5 +139,5 @@ $(document).ready(function(){
     setTimeout(function(){
         $('body').removeClass('loader');
         $('.profile').addClass('show');
-    },1000);
+    },3000);
 });

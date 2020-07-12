@@ -47,7 +47,7 @@
     top:0;
     z-index: 10;
     padding: 30px;
-    @include transition(margin-left 0.3s ease);
+    @include transition(margin-left 0.5s ease-in-out);
     border-right: 1px solid #e9deec;
     .logo{
         padding: 40px 0px;
